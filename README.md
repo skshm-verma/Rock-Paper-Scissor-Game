@@ -26,7 +26,9 @@ Get ready to throw down in this timeless game of chance and strategy! This class
 3. **Play!** Start challenging the computer and see if you have what it takes to become the Rock-Paper-Scissors master.
 
 ## Some Visuals:
-<img src="/images/cup.png" alt="cup"/>
+<img src="/images/visual1.png" alt="game visual"/>
+<img src="/images/visual2.png" alt="game visual"/>
+<img src="/images/visual3.png" alt="game visual"/>
 
 ## Author:
 
