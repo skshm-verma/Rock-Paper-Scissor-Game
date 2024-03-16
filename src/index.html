@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor-Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="Part1">
+        <div class="header-section">
+            <div class="choose-options">
+                <p>ROCK</p>
+                <p>PAPER</p>
+                <p>SCISSORS</p>
+            </div>
+            <div class="scores">
+                <div class="score-keeper" id="computer-score">
+                    <p>COMPUTER</p>
+                    <p>SCORE</p>
+                    <input name="c-score" type="text">
+                </div>
+                <div class="score-keeper" id="your-score">
+                    <p>YOUR</p>
+                    <p>SCORE</p>
+                    <input name="u-score" type="text">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Part2">
+        <div class="body-section">
+            <div class="triangle">
+                <div class="part-t" id="line1"></div>
+                <div class="part-t" id="line2"></div>
+                <div class="part-t" id="line3"></div>
+            </div>
+            <div class="options">
+                <div class="circleOpt" id="rock"><img src="/images/rock.png"></div>
+                <div class="circleOpt" id="paper"><img src="/images/paper.png"></div>
+                <div class="circleOpt" id="scissor"><img src="/images/scissor.png"></div>
+            </div>
+        </div>
+        <div class="body-section-2">
+            <div class="resulting-area">
+                <span id="your-choice">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                    <!-- <div class="circleOpt2 rockC"><img src="images/rock.png"></div> -->
+                    <div class="circleOpt2"><img id="your-img" src="#"></div>
+                </span>
+                <p>YOU PICKED</p>
+            </div>
+            <div class="resulting-area" id="display">
+                <span id="display-result">YOU LOST</span>
+                <span id="against-who">AGAINST PC</span>
+                <button
+                    type="submit"><span><b>P&nbspL&nbspA&nbspY&nbsp&nbspA&nbspG&nbspA&nbspI&nbspN</b></span></button>
+            </div>
+            <div class="resulting-area">
+                <span id="pc-choice">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+                    <!-- <div class="circleOpt2 scissorC"><img src="images/scissor.png"></div> -->
+                    <div class="circleOpt2"><img id="pc-img" src="#"></div>
+                </span>
+                <p>PC PICKED</p>
+            </div>
+        </div>
+        <div class="body-section-3">
+            <div class="width-management" id="rockP">
+                <p>ROCK</p>
+            </div>
+            <div class="width-management" id="paperP">
+                <p>PAPER</p>
+            </div>
+            <div class="width-management" id="scissorP">
+                <p>SCISSOR</p>
+            </div>
+        </div>
+        <div class="rules-container">
+            <h2>Game Rules</h2>
+            <ul id="allRules">
+                <li>
+                    <p>Rock beats scissors, scissors beat paper, and paper beats rock.</p>
+                </li>
+                <li>
+                    <p>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock,
+                        paper, scissors.”</p>
+                </li>
+                <li>
+                    <p>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</p>
+                </li>
+                <li>
+                    <p>If both players lay down the same hand, each player lays down another hand</p>
+                </li>
+            </ul>
+            <div class="cross" id="close-rules">
+                <img src="/images/X.png">
+            </div>
+        </div>
+    </section>
+    <section class="Part3">
+        <div class="footer">
+            <div class="buttons">
+                <form>
+                    <input type="button" id="rules" value="RULES">
+                    <a href="/Hurray/index2.html"><input type="button" id="next" value="NEXT"></a>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

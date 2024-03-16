@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurray Page</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+     <div class="img-container">
+        <img id="star" src="/images/stars.png">
+        <img id="cup" src="/images/cup.png">
+     </div>
+      <div class="p-container">
+        <p id="H">HURRAY!!</p>
+        <p>YOU WON THE GAME</p>
+      </div>
+     <form>
+        <input type="button" id="rules" value="RULES">
+        <a href= "/src/index.html"><input type="button" id="play-again" value="P L A Y  A G A I N"></a>
+    </form>
+    <div class="rules-container">
+        <h2>Game Rules</h2>
+        <ul id="allRules">
+            <li>
+                <p>Rock beats scissors, scissors beat paper, and paper beats rock.</p>
+            </li>
+            <li>
+                <p>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock,
+                    paper, scissors.”</p>
+            </li>
+            <li>
+                <p>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</p>
+            </li>
+            <li>
+                <p>If both players lay down the same hand, each player lays down another hand</p>
+            </li>
+        </ul>
+        <div class="cross" id="close-rules">
+            <img src="/images/X.png">
+        </div>
+    </div>
+    <script>
+        document.querySelector(".rules-container").style.visibility = "hidden";
+        document.getElementById("rules").addEventListener('click',()=>{
+            document.querySelector(".rules-container").style.visibility = "visible";
+        });
+        document.getElementById("close-rules").addEventListener('click',()=>{
+            document.querySelector(".rules-container").style.visibility = "hidden";
+        });
+    </script>
+
+</body>
+</html>
