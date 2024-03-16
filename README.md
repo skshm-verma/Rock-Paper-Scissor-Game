@@ -25,7 +25,8 @@ Get ready to throw down in this timeless game of chance and strategy! This class
 2. **Open in a Browser:**  Use https://rock-paper-scissor-game-green.vercel.app/ to open the game onto your browser window.
 3. **Play!** Start challenging the computer and see if you have what it takes to become the Rock-Paper-Scissors master.
 
-## Some Visuals:![screencapture-127-0-0-1-5500-index-html-2024-03-16-19_16_55](https://github.com/skshm-verma/Rock-Paper-Scissor-Game/assets/106864834/2edc779f-8903-4705-90e4-adb22b68873e)
+## Some Visuals:
+![screencapture-127-0-0-1-5500-index-html-2024-03-16-19_16_55](https://github.com/skshm-verma/Rock-Paper-Scissor-Game/assets/106864834/2edc779f-8903-4705-90e4-adb22b68873e = 300*300)
 
 
 ## Author:
