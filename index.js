@@ -266,23 +266,23 @@ function transitionPlay(){
         rockFn.style.visibility = "hidden";
         paperFn.style.visibility = "visible";
         paperFn.querySelector("p").style.animation = "growFn 0.7s linear";
-    },1400) 
+    },1300) 
     setTimeout(()=>{
         paperFn.querySelector("p").style.animation = "shrinkFn 0.7s linear";
-    },2100)
+    },2000)
     setTimeout(()=>{
         paperFn.style.visibility = "hidden";
         scissorFn.style.visibility = "visible";
         scissorFn.querySelector("p").style.animation = "growFn 0.7s linear";
-    },2800)
+    },2700)
     setTimeout(()=>{
         scissorFn.querySelector("p").style.animation = "shrinkFn 0.7s linear";
-    },3500)
+    },3400)
     setTimeout(()=>{
         rockFn.style.visibility = "hidden";
         scissorFn.style.visibility = "hidden";
         paperFn.style.visibility = "hidden";
-    },4200)
+    },4100)
 }
 
 window.addEventListener("load", () => {
