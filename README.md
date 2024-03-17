@@ -19,14 +19,14 @@ Get ready to throw down in this timeless game of chance and strategy! This class
 - HTML (Structure and User Interface)
 - CSS (Styling and Visual Design)
 
+## Some Visuals:
+<img src="/images/visual1.png" alt="game visual" width="300" height="150"/> <img src="/images/visual2.png" alt="game visual" width="300" height="150"/> <img src="/images/visual3.png" alt="game visual" width="300" height="150"/>
+
 ## Getting Started:
 
 1. **Clone the Repository:** Use `git clone https://github.com/skshm-verma/Rock-Paper-Scissor-Game.git` to download the project files.
 2. **Open in a Browser:**  Use https://rock-paper-scissor-game-green.vercel.app/ to open the game onto your browser window.
 3. **Play!** Start challenging the computer and see if you have what it takes to become the Rock-Paper-Scissors master.
-
-## Some Visuals:
-<img src="/images/visual1.png" alt="game visual" width="300" height="150"/> <img src="/images/visual2.png" alt="game visual" width="300" height="150"/><img src="/images/visual3.png" alt="game visual" width="300" height="150"/>
 
 ## Author:
 
