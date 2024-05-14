@@ -20,7 +20,10 @@ Get ready to throw down in this timeless game of chance and strategy! This class
 - CSS (Styling and Visual Design)
 
 ## Some Visuals:
-<img src="/images/visual1.png" alt="game visual" width="300" height="150"/> <img src="/images/visual2.png" alt="game visual" width="300" height="150"/> <img src="/images/visual3.png" alt="game visual" width="300" height="150"/>
+![screencapture-rock-paper-scissor-game-green-vercel-app-2024-05-14-18_10_40](https://github.com/skshm-verma/Rock-Paper-Scissor-Game/assets/106864834/76adc614-79ea-4b8c-bbe3-ec5f00a13e1d)
+![screencapture-rock-paper-scissor-game-green-vercel-app-index-html-2024-05-14-18_12_36](https://github.com/skshm-verma/Rock-Paper-Scissor-Game/assets/106864834/47782cb8-91d2-4245-b952-272d58211446)
+![screencapture-rock-paper-scissor-game-green-vercel-app-index-html-2024-05-14-18_11_42](https://github.com/skshm-verma/Rock-Paper-Scissor-Game/assets/106864834/39895ec1-fa3f-4f2b-9fa3-b74778da5b9a)
+![screencapture-rock-paper-scissor-game-green-vercel-app-Hurray-index2-html-2024-05-14-18_10_54](https://github.com/skshm-verma/Rock-Paper-Scissor-Game/assets/106864834/3b276f12-d8d2-4fe1-accd-d58a820c1e44)
 
 ## Getting Started:
 
