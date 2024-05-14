@@ -33,8 +33,8 @@ const pcC3 = document.getElementById("pc-choice").querySelector(".circle3");
 const playButton = document.getElementById('display').querySelector("button").querySelector("span");
 const compScore = document.getElementById("computer-score").querySelector("input");
 const yourScore = document.getElementById("your-score").querySelector("input");
-let compScorecard = 0;
-let yourScorecard = 0;
+let compScorecard
+let yourScorecard 
 
 rockP.addEventListener('click', () => {
     body1.style.visibility = "hidden";
@@ -70,23 +70,23 @@ rockP.addEventListener('click', () => {
             urC3.style.visibility = "visible";
             document.getElementById("rules").style.animation = "slideInLeftR 2s ease forwards"
             document.getElementById("next").style.animation = "slideInLeftN 2s ease forwards"
-            yourScore.value = localStorage.getItem("your");
+            yourScore.value = JSON.parse(localStorage.getItem("your"));
         },4200)
         document.getElementById("display-result").innerHTML = 'YOU WON';
         document.getElementById('against-who').innerHTML = "AGAINST PC";
         yourScorecard += 1;
-        localStorage.setItem("your", yourScorecard);
+        localStorage.setItem("your", JSON.stringify(yourScorecard));
     } else {
         setTimeout(() => {
             pcC1.style.visibility = "visible";
             pcC2.style.visibility = "visible";
             pcC3.style.visibility = "visible";
-            compScore.value = localStorage.getItem("comp");
+            compScore.value = JSON.parse(localStorage.getItem("comp"));
         },4200)
         document.getElementById("display-result").innerHTML = 'YOU LOST';
         document.getElementById('against-who').innerHTML = "AGAINST PC";
         compScorecard += 1;
-        localStorage.setItem("comp", compScorecard);
+        localStorage.setItem("comp", JSON.stringify(compScorecard));
     }
 })
 
@@ -125,23 +125,23 @@ paperP.addEventListener('click', () => {
             urC3.style.visibility = "visible";
             document.getElementById("rules").style.animation = "slideInLeftR 2s ease forwards"
             document.getElementById("next").style.animation = "slideInLeftN 2s ease forwards"
-            yourScore.value = localStorage.getItem("your");
+            yourScore.value = JSON.parse(localStorage.getItem("your"));
         }, 4200)
         document.getElementById("display-result").innerHTML = 'YOU WON';
         document.getElementById('against-who').innerHTML = "AGAINST PC";
         yourScorecard += 1;
-        localStorage.setItem("your", yourScorecard);
+        localStorage.setItem("your", JSON.stringify(yourScorecard));
     } else {
         setTimeout(() => {
             pcC1.style.visibility = "visible";
             pcC2.style.visibility = "visible";
             pcC3.style.visibility = "visible";
-            compScore.value = localStorage.getItem("comp");
+            compScore.value = JSON.parse(localStorage.getItem("comp"));
         }, 4200)
         document.getElementById("display-result").innerHTML = 'YOU LOST';
         document.getElementById('against-who').innerHTML = "AGAINST PC";
         compScorecard += 1;
-        localStorage.setItem("comp", compScorecard);
+        localStorage.setItem("comp", JSON.stringify(compScorecard));
     }
 })
 
@@ -180,23 +180,23 @@ scissorP.addEventListener('click', () => {
             urC3.style.visibility = "visible";
             document.getElementById("rules").style.animation = "slideInLeftR 2s ease forwards"
             document.getElementById("next").style.animation = "slideInLeftN 2s ease forwards"
-            yourScore.value = localStorage.getItem("your");
+            yourScore.value = JSON.parse(localStorage.getItem("your"));
         }, 4200)
         document.getElementById("display-result").innerHTML = 'YOU WON';
         document.getElementById('against-who').innerHTML = "AGAINST PC";
         yourScorecard += 1;
-        localStorage.setItem("your", yourScorecard);
+        localStorage.setItem("your", JSON.stringify(yourScorecard));
     } else {
         setTimeout(() => {
             pcC1.style.visibility = "visible";
             pcC2.style.visibility = "visible";
             pcC3.style.visibility = "visible";
-            compScore.value = localStorage.getItem("comp");
+            compScore.value = JSON.parse(localStorage.getItem("comp"));
         }, 4200)
         document.getElementById("display-result").innerHTML = 'YOU LOST';
         document.getElementById('against-who').innerHTML = "AGAINST PC";
         compScorecard += 1;
-        localStorage.setItem("comp", compScorecard);
+        localStorage.setItem("comp", JSON.stringify(compScorecard));
     }
 })
 
@@ -287,9 +287,9 @@ function transitionPlay(){
 
 window.addEventListener("load", () => {
     document.querySelector('.rules-container').style.visibility = "visible";
-    if(localStorage.getItem("your")=== undefined || localStorage.getItem("comp") === undefined ){
-        localStorage.setItem("your", yourScorecard);
-        localStorage.setItem("comp", compScorecard);
+    if(JSON.parse(localStorage.getItem("your")) === null || JSON.parse(localStorage.getItem("comp")) === null){
+        localStorage.setItem("your", JSON.stringify(0));
+        localStorage.setItem("comp",  JSON.stringify(0));
     }
     yourScore.value = localStorage.getItem("your");
     compScore.value = localStorage.getItem("comp");
